@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarrierDemo.DAL.Repositories.Abstarct
+namespace CarrierDemo.DAL.Repositories.Generic
 {
     public class ReadRepository<T> : IReadRepository<T> where T : BaseEntitiy
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarrierDemo.DAL.Repositories.Abstarct
+namespace CarrierDemo.DAL.Repositories.Generic
 {
     public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntitiy
     {
